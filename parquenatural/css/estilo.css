@@ -34,4 +34,30 @@ nav {
     float: left;
     padding: 10px;
 }
+nav ul li  {
+    list-style: none;
+}
+
+nav ul li a {
+    display:block;
+    margin-bottom: 5px;
+    border: 1px solid silver;
+    background-color: rgb(210,233,141);
+    width: 100px;  
+    text-align: center;
+    padding: 5px 7px; 
+    text-decoration: none; 
+    color: dimgray;
+    font-size: 0.9em;
+    font-weight: bold;
+ 
+}
+
+nav ul li a:hover {
+    border: 1px solid dimgray;
+}
+.active {
+    background-color: rgb(219,204,180);
+    color:black;
+}
 
