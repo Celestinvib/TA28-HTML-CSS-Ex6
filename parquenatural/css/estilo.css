@@ -19,11 +19,16 @@ h2 {
 }
 
 .section {
+    float: right;
+}
+
+.sub-section {
     border: 1px solid silver;
     padding: 15px;
     margin: 15px;
-    float: right;    
     width: 900px;
+    background: linear-gradient(  silver 2%, white 8%, white 90%, silver 100%);
+
 }
 
 h3 {
@@ -42,7 +47,7 @@ nav ul li a {
     display:block;
     margin-bottom: 5px;
     border: 1px solid silver;
-    background-color: rgb(210,233,141);
+    background: linear-gradient(white 30%, rgb(210,233,141));
     width: 100px;  
     text-align: center;
     padding: 5px 7px; 
@@ -57,7 +62,28 @@ nav ul li a:hover {
     border: 1px solid dimgray;
 }
 .active {
-    background-color: rgb(219,204,180);
+    background: linear-gradient(white 30%,  rgb(219,204,180));
     color:black;
 }
 
+#panoramica {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#img_owner_ref {
+    float: right;
+    color: silver;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+    text-align: center;
+
+}
+
+#img_owner_ref a {
+    color: silver;
+    font-style: italic;
+}
